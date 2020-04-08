@@ -1,0 +1,32 @@
+body {
+  background: pink;
+  width: 100vw;
+  height: 100vh;
+  background-image url('https://res.cloudinary.com/dw4yle7tl/image/upload/v1586287973/cloudy-with-a-chance-of-meatballs-background-hd-1920x1080-168920_pr8vww.jpg');
+}
+
+[draggable] {
+  cursor: move;
+}
+
+p {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, .7);
+  font-size: 1.25em;
+  z-index: -1;
+}
+
+img{
+  height:170px;
+  width:170px;
+}
+
+.div1 {
+  position: absolute;
+  right: 400px;
+  top:100px;
+  width: 500px;
+  height: 400px;
+  border: 3px outset black;
+}
